@@ -1,13 +1,13 @@
 package Model.Enums;
 
 public enum Genero {
-    ACAO(0, "ACAO"), 
-    COMEDIA(1, "COMEDIA"), 
-    DRAMA(2, "DRAMA"), 
-    FICCAO_CIENTIFICA(3,"FICCAO_CIENTIFICA"), 
-    ROMANCE(4,"ROMANCE"), TERROR(5,"TERROR"), 
-    DOCUMENTARIO(6,"DOCUMENTARIO"), 
-    AVENTURA(7,"AVENTURA");
+    ACAO(0, "Acao"), 
+    COMEDIA(1, "Comedia"), 
+    DRAMA(2, "Drama"), 
+    FICCAO_CIENTIFICA(3,"Ficcao Cientifica"), 
+    ROMANCE(4,"Romance"), TERROR(5,"Terror"), 
+    DOCUMENTARIO(6,"Documentario"), 
+    AVENTURA(7,"Aventura");
 
     int id;
     String nome;

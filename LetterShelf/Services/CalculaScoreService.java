@@ -29,6 +29,7 @@ public class CalculaScoreService {
             double total=sGen*PESO_GENERO + sDur*PESO_DURACAO + sPop*PESO_POPULARIDADE + sAfi*PESO_AFINIDADE;
             
             relacaoFilmeScore.put(filme, new ScoreFilme(sGen, sDur, sPop, sAfi, total));
+            
         }
 
         return relacaoFilmeScore;

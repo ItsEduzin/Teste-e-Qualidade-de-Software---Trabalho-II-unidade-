@@ -13,12 +13,14 @@ public class RecomendadorService {
     Ranqueamento ranqueamento;
     FiltroService filtro;
     CalculaScoreService calculaScore;
-
+    GeradorJustificativaService geradorJustificativa;
+    
     public RecomendadorService(){
         data= new UserScoreData();
         ranqueamento= new Ranqueamento();
         filtro = new FiltroService();
         calculaScore = new CalculaScoreService();
+        geradorJustificativa = new GeradorJustificativaService();
     }
 
     public ArrayList<Filme> Recomendar(Usuario user, int qntd, List<Filme> FilmesDisponiveis){
@@ -31,6 +33,16 @@ public class RecomendadorService {
             calculaScore.definirScores(user, filmesApropiados, scores);
             return ranqueamento.ranquear(user, scores, qntd);
         }
+    }
+
+    public ArrayList<String> RecomendadosToString(Usuario user, int qntd, List<Filme> FilmesDisponiveis){
+        ArrayList<Filme> recomendados = Recomendar(user, qntd, FilmesDisponiveis);
+        Map<Filme,ScoreFilme> score = data.getUserScores(user);
+        ArrayList<String> recomendadosString = new ArrayList<>();
+        for (Filme filme : recomendados) {
+            recomendadosString.add(geradorJustificativa.gerar(user, filme, score.get(filme)));
+        }
+        return recomendadosString;
     }
 
     
