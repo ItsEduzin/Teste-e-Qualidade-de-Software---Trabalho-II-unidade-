@@ -67,6 +67,10 @@ O projeto segue princípios de engenharia de software com responsabilidades bem 
 
 ---
 
+## Link do Slide
+
+Link: https://canva.link/8b243131tvq7xub
+
 ## Como Executar os Testes com Maven no VS Code 
 
 (Exemplo de um cenário): 
