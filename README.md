@@ -40,6 +40,9 @@ O projeto segue princípios de engenharia de software com responsabilidades bem 
 * **Testes JUnit 5**:
 <img width="533" height="704" alt="image" src="https://github.com/user-attachments/assets/a4c6642f-47ea-4d6b-8fcd-78e5366685ae" />
 
+* **Testes Mockito**:
+<img width="303" height="525" alt="image" src="https://github.com/user-attachments/assets/4637d689-9580-4063-aace-8ce559136066" />
+
 
 
 
@@ -51,6 +54,8 @@ O projeto segue princípios de engenharia de software com responsabilidades bem 
 | :--- | :--- |
 | **Linguagem Utilizada** | Java |
 | **Editor de Código** | Visual Studio Code |
+| **Ferramenta de Teste** | JUnit 5 |
+| **Ferramenta de Teste** | Mockito |
 
 ---
 
