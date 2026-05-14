@@ -1,7 +1,7 @@
 <img width="109" height="75" alt="Captura de tela 2026-05-14 011622 (1)" src="https://github.com/user-attachments/assets/356ccb41-b1ea-456c-a3d5-5c224612c52a" />
 
 
-# LetterShelf 
+# LetterShelf - O filme que você quer, antes da pipoca esfriar!
 
 O **LetterShelf** é um motor de recomendação inteligente projetado para conectar você ao seu próximo filme favorito. Diferente de algoritmos genéricos, o LetterShelf prioriza o refinamento técnico, cruzando dados comportamentais e preferências estritas para entregar uma lista ranqueada de alta precisão.
 
